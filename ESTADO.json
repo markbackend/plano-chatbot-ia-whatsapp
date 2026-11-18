@@ -1,0 +1,11 @@
+{
+  "estado": "listo",
+  "pruebas": "61 pasan, 0 fallan",
+  "resumen": "Chatbot de WhatsApp (Cloud API de Meta) con IA en Python + FastAPI: Claude por httpx (OpenAI como alternativa), base de conocimiento en negocio.md con control de precios inventados, respuestas en el idioma del cliente, historial en SQLite, derivación con aviso al dueño, pausa y reactivación, límites por hora y de tokens, respaldo si la IA falla, panel /admin con clave y simulador por consola con IA falsa.",
+  "pendiente": [
+    "No se probó contra la API real de Anthropic, OpenAI ni Meta (no hay claves): solo con transportes falsos que imitan sus formatos. Primera vez con un cliente: hacer una prueba real con su número de prueba de Meta.",
+    "La derivación no puede responderle al cliente desde la app de WhatsApp común: la persona responde desde el panel /admin (o se usa la coexistencia de WhatsApp Business App si el cliente la tiene).",
+    "Mensajes de voz e imágenes: hoy el bot pide que escriban; transcribir audios es un extra.",
+    "Para escribirle primero a un cliente (más de 24 h sin hablar) Meta exige plantillas aprobadas: no está incluido."
+  ]
+}

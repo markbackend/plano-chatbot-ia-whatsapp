@@ -1,0 +1,21 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Entornos y dependencias
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Bases de datos y salidas
+datos/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.log
+salidas/

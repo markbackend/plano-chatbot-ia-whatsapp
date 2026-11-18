@@ -1,0 +1,27 @@
+{
+  "nombre": "Chatbot de WhatsApp con IA para atención al cliente",
+  "sirve_para": [
+    "Responder WhatsApp automáticamente con IA usando la información real del negocio",
+    "Chatbot de ventas: precios, envíos, medios de pago y horarios",
+    "Atención en varios idiomas (traduce las respuestas al idioma del cliente)",
+    "Derivar a una persona con aviso al dueño y pausa del bot en ese chat",
+    "Atención fuera de horario para comercios, clínicas, inmobiliarias y tiendas online"
+  ],
+  "palabras_clave_workana": [
+    "chatbot whatsapp",
+    "bot whatsapp ia",
+    "automatizar whatsapp",
+    "whatsapp business api",
+    "chatgpt whatsapp",
+    "claude",
+    "inteligencia artificial atención al cliente",
+    "respuestas automáticas",
+    "asistente virtual",
+    "fastapi",
+    "python"
+  ],
+  "lenguaje": "Python 3.12 + FastAPI",
+  "pruebas": "61 pasan, 0 fallan",
+  "horas_adaptar": "2-6",
+  "precio_sugerido_usd": "150-400"
+}
